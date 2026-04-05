@@ -1,0 +1,15 @@
+mcp 
+langchain 
+langchain_classic
+langchain-mcp-adapters 
+langchain-huggingface
+huggingface_hub 
+psutil 
+PyPDF2 
+transformers 
+pillow 
+requests 
+nbformat 
+nbconvert
+accelerate 
+torch
