@@ -10,7 +10,8 @@ from pptx.util import Inches, Pt
 from pptx.enum.text import PP_ALIGN
 from dotenv import load_dotenv
 
-load_dotenv()
+from pathlib import Path
+load_dotenv(dotenv_path=Path(__file__).parent / ".env")
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 MODEL_ID     = os.getenv("MODEL_ID", "llama-3.1-70b-versatile")
